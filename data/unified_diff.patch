@@ -1,0 +1,11 @@
+--- a/usr/share/voicecall-ui-jolla/qml/main.qml
++++ b/usr/share/voicecall-ui-jolla/qml/main.qml
+@@ -39,6 +39,8 @@
+     onAddCallModeChanged: updateVisibility()
+     onHaveSilencedCallChanged: updateVisibility()
+ 
++    onLaunchedByUserChanged: dialer.active = true
++
+     function qsTrIdStrings() {
+         //% "Private number"
+         QT_TRID_NOOP("voicecall-la-private_number")
