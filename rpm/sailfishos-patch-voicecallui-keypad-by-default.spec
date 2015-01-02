@@ -13,7 +13,7 @@ Name:       sailfishos-patch-voicecallui-keypad-by-default
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Keypad open by default in voicecall-ui
-Version:    1.0
+Version:    1.1.1.26
 Release:    1
 Group:      Applications/Productivity
 License:    GPLv2+
@@ -22,6 +22,7 @@ URL:        http://me.medesimo.eu
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  sailfishos-patch-voicecallui-keypad-by-default.yaml
 Requires:   patchmanager
+Requires:   sailfish-version >= 1.1.1-10.22.26.jolla.armv7hl
 
 %description
 Opens the dialer keypad by default

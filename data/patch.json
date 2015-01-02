@@ -1,7 +1,7 @@
 {
 	"name": "Keypad open by default",
 	"description": "Opens the dialer keypad by default",
-	"category": "other",
+	"category": "phone",
 	"infos": {
 		"maintainer": "Eugenio Paolantonio"
 	}
