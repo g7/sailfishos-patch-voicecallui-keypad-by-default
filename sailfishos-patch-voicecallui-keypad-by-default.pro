@@ -22,7 +22,7 @@ INSTALLS += \
 
 
 OTHER_FILES += \
-    rpm/sailfishos-patch-voicecallui-keypad-by-default.changes.in \
+    rpm/sailfishos-patch-voicecallui-keypad-by-default.changes \
     rpm/sailfishos-patch-voicecallui-keypad-by-default.spec \
     rpm/sailfishos-patch-voicecallui-keypad-by-default.yaml \
     data/unified_diff.patch \
