@@ -1,6 +1,6 @@
 Name: sailfishos-patch-voicecallui-keypad-by-default
 Summary: Keypad open by default in voicecall-ui
-Version: 1.1.1.26
+Version: 2.0.0.10
 Release: 1
 BuildArch: noarch
 # The contents of the Group field should be one of the groups listed here:

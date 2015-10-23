@@ -8,8 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Sun Apr 13 2014 Jack Tar <jack.tar@example.com> 0.0.1-1
-- Scrubbed the deck
-- Hoisted the sails
-
-
+* Fri Oct 23 2015 Eugenio "g7" Paolantonio <me@medesimo.eu> 2.0.0.10-1
+- [patch] Do not rely on launchedByUser anymore, instead hook on the DBus show() call
+- [packaging] Ship the changelog
+- [packaging] Bump sailfish-version requirement to 2.0.0-10.34.10 (2.0.0.10 Saimaa)
+- [packaging] Require latest voicecall-ui-jolla
+- [packaging] Try to remove the patch when removing the package
