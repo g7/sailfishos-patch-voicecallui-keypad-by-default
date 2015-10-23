@@ -31,6 +31,7 @@ Builder: qtc5
 Requires:
   - patchmanager
   - sailfish-version >= 2.0.0-10.34.10.jolla
+  - voicecall-ui-jolla >= 0.8.32.1-10.58.1.jolla
 
 # All installed files
 Files:
